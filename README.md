@@ -4,8 +4,6 @@ An Instagram clone made using flutter. It has a basic login layout and a home pa
 
 ## Images
 <img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/flutter_insta/master/assets/images/loginInsta.png" width=30% height=30%> <img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/flutter_insta/master/assets/images/homeInsta.webp" width=30% height=30%>
-<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/help.png" width=30% height=30%>
-<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/home.png" width=30% height=30%>
 
 
 ### Getting Started
