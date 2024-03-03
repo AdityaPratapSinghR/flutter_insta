@@ -29,11 +29,11 @@ class _homePageState extends State<homePage> {
                   height: 50,
                 ),
                 Expanded(flex: 1, child: SizedBox()),
-                Icon(Icons.favorite_outline, color: Colors.white, size: 26),
+                Icon(Icons.favorite_outline, color: Colors.black, size: 26),
                 SizedBox(
                   width: 10,
                 ),
-                Icon(Icons.message_outlined, color: Colors.white, size: 26),
+                Icon(Icons.message_outlined, color: Colors.black, size: 26),
               ],
             )),
       ),

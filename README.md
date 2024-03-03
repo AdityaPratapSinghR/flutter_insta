@@ -1,8 +1,14 @@
 # flutter_insta
 
-A new Flutter project.
+An Instagram clone made using flutter. It has a basic login layout and a home page.
 
-## Getting Started
+## Images
+<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/login.png" width=30% height=30%> <img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/signup.png" width=30% height=30%>
+<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/help.png" width=30% height=30%>
+<img src ="https://raw.githubusercontent.com/AdityaPratapSinghR/facebook_flutter/master/assets/images/home.png" width=30% height=30%>
+
+
+### Getting Started
 
 This project is a starting point for a Flutter application.
 

@@ -22,7 +22,7 @@ class _StoryState extends State<Story> {
           children: [
             CircleAvatar(
               radius: 40,
-              backgroundColor: const Color.fromARGB(255, 255, 0, 72),
+              backgroundColor: Colors.blue,
               child: CircleAvatar(
                 radius: 37,
                 backgroundImage: NetworkImage(widget.img),
