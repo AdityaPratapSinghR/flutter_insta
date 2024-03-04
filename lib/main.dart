@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_insta/screens/homePage.dart';
 import 'package:flutter_insta/screens/loginPage.dart';
+import 'package:flutter_insta/screens/signUpPage.dart';
 import 'package:flutter_insta/utils/routes.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/":(context) => loginPage(),
         MyRoutes.homePageRoute:(context) => homePage(),
+        MyRoutes.signUpPageRoute:(context)=>signUpPage(),
       },
 
     );

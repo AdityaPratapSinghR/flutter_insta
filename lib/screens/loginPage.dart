@@ -100,11 +100,16 @@ class loginPage extends StatelessWidget {
                 ),
               ),
               const Spacer(flex:5),
-              const Row(
+               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Don't have an account?",style:TextStyle(color:secondaryColor)),
-                  Text(" SignUp",style:TextStyle(color:primaryColor)),
+                  InkWell(
+                    onTap: ()=>{
+                      Navigator.of(context).pushNamed(MyRoutes.signUpPageRoute),
+                    },
+                    child:  Text(" SignUp",style:TextStyle(color:primaryColor)),
+                  ),
                 ],
               ),
               const Spacer(flex:2)

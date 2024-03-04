@@ -3,6 +3,7 @@ import 'package:flutter_insta/utils/global.dart';
 
 import '../widgets/post.dart';
 import '../widgets/story.dart';
+import 'package:video_player/video_player.dart';
 
 class homePage extends StatefulWidget {
   const homePage({super.key});
@@ -15,28 +16,28 @@ class _homePageState extends State<homePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: backgroundColor,
-        centerTitle: false,
-        automaticallyImplyLeading: false,
-        title: const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 5),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Image(
-                  image: AssetImage('assets/images/instalogo.png'),
-                  height: 50,
-                ),
-                Expanded(flex: 1, child: SizedBox()),
-                Icon(Icons.favorite_outline, color: Colors.black, size: 26),
-                SizedBox(
-                  width: 10,
-                ),
-                Icon(Icons.message_outlined, color: Colors.black, size: 26),
-              ],
-            )),
-      ),
+        appBar: AppBar(
+          backgroundColor: backgroundColor,
+          centerTitle: false,
+          automaticallyImplyLeading: false,
+          title: const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 5),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Image(
+                    image: AssetImage('assets/images/instalogo.png'),
+                    height: 50,
+                  ),
+                  Expanded(flex: 1, child: SizedBox()),
+                  Icon(Icons.favorite_outline, color: Colors.black, size: 26),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Icon(Icons.message_outlined, color: Colors.black, size: 26),
+                ],
+              )),
+        ),
         body: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -46,7 +47,8 @@ class _homePageState extends State<homePage> {
                   scrollDirection: Axis.horizontal,
                   child: Container(
                     alignment: Alignment.centerLeft,
-                    padding: const EdgeInsets.only(top: 10, bottom: 10, left: 20),
+                    padding: const EdgeInsets.only(
+                        top: 10, bottom: 10, left: 20),
                     child: const Row(children: [
                       Story(
                           img:
@@ -96,6 +98,3 @@ class _homePageState extends State<homePage> {
     );
   }
 }
-
-
-
